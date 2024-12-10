@@ -1,0 +1,26 @@
+OptaCloud-Assignment
+├── frontend
+│   ├── public
+│   │   └── index.html
+│   ├── src
+│   │   ├── components
+│   │   │   ├── AddressForm.js
+│   │   │   ├── LocationPrompt.js
+│   │   │   ├── ManageAddresses.js
+│   │   │   └── MapComponent.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── App.css
+│   └── .env
+├── backend
+│   ├── models
+│   │   └── Address.js
+│   ├── controller
+│   │   └── addressController.js
+│   ├── routes
+│   │   └── addressRoutes.js
+│   ├── utils
+│   │   └── catchAsync.js
+│   ├── server.js
+│   └── .env
+└── README.md

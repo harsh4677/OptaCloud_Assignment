@@ -1,0 +1,20 @@
+Set up a new React project:
+npx create-react-app location-address-flow
+
+Install dependencies for state management and Google Maps:
+npm install axios redux react-redux @react-google-maps/api
+
+Backend (Node.js + Express) Setup:
+Initialize a new Node.js project:
+mkdir backend && cd backend
+npm init -y
+npm install express dotenv mongoose cors body-parser
+
+
+Run the backend server:
+cd backend
+node server.js
+
+Run the frontend server:
+cd frontend
+npm start
